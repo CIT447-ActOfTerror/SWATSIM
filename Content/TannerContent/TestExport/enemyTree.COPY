@@ -1,0 +1,39 @@
+Begin Object Class=/Script/AIModule.BehaviorTree Name="enemyTree"
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_0"
+   End Object
+   Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraph Name="Behavior Tree"
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root Name="BehaviorTreeGraphNode_Root_0"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_1"
+      End Object
+   End Object
+   Begin Object Name="BTComposite_Selector_0"
+      TreeAsset=BehaviorTree'"enemyTree"'
+   End Object
+   Begin Object Name="Behavior Tree"
+      Begin Object Name="BehaviorTreeGraphNode_Root_0"
+         BlackboardAsset=BlackboardData'"/Game/enemyBoard.enemyBoard"'
+         NodeGuid=36B18AD94AA6EB9ADEB1DF819C525F58
+         CustomProperties Pin (PinId=0E32ACE1461447829DA00F9B606E5C28,PinName="In",Direction="EGPD_Output",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 03E878AA45C1CD06547DA58253DDCEE7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_1"
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=BTComposite_Selector'"enemyTree:BTComposite_Selector_0"'
+         NodePosX=-16
+         NodePosY=192
+         NodeGuid=188891B945B628901E1EBE9B28FC0B2E
+         CustomProperties Pin (PinId=03E878AA45C1CD06547DA58253DDCEE7,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(BehaviorTreeGraphNode_Root_0 0E32ACE1461447829DA00F9B606E5C28,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B2411D4E44CACDCF352E9383F41E2CAB,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      ModCounter=5
+      bIsUsingModCounter=True
+      GraphVersion=3
+      Nodes(0)=BehaviorTreeGraphNode_Root'"BehaviorTreeGraphNode_Root_0"'
+      Nodes(1)=BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_1"'
+      GraphGuid=27023CAD4108B5B2CF0CA2B7DC5EA5AA
+   End Object
+   RootNode=BTComposite_Selector'"BTComposite_Selector_0"'
+   BTGraph=BehaviorTreeGraph'"Behavior Tree"'
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/enemyTree.enemyTree:Behavior Tree,SavedViewOffset=(X=-617.549988,Y=-202.299988),SavedZoomAmount=1.000000)
+   BlackboardAsset=BlackboardData'"/Game/enemyBoard.enemyBoard"'
+End Object
