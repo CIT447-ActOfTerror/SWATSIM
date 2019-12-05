@@ -1,0 +1,18 @@
+Begin Object Class=/Script/AIModule.BlackboardData Name="enemyBoard"
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_0"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKeyType_Object_1"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKeyType_Object_0"
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_0"
+   End Object
+   Begin Object Name="BlackboardKeyType_Object_1"
+   End Object
+   Begin Object Name="BlackboardKeyType_Object_0"
+      BaseClass=Class'"/Script/Engine.Actor"'
+   End Object
+   Keys(0)=(EntryName="SelfActor",KeyType=BlackboardKeyType_Object'"BlackboardKeyType_Object_0"')
+   Keys(1)=(EntryName="targetpawn",KeyType=BlackboardKeyType_Object'"BlackboardKeyType_Object_1"')
+   Keys(2)=(EntryName="targetposition",KeyType=BlackboardKeyType_Vector'"BlackboardKeyType_Vector_0"')
+End Object
